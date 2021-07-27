@@ -1,0 +1,23 @@
+SHIFT OPERATORS
+
+    1) Left Shift << - This shifts all the bits to b position/s left. 
+    Example - 5 = 00101, 5 << 1 = 10, because, 10 = 01010
+    Therefore, | a << b = a * 2^b | Left Shift means multiplication
+
+    2) Right shift >> - This shifts all the bits to b position/s right. 
+    Example - 5 = 00101, 5 >> 1 = 2, because, 2 = 00010
+    Therefore, | a >> b = a / 2^b | Right Shift means Division.
+
+XOR - EXCLUSIVE OR
+
+    1 ^ 1 = 0
+    1 ^ 0 = 1
+    0 ^ 1 = 1
+    0 ^ 0 = 0
+
+    This is 1 only if exactly one bit is 1.
+    Example - 5 ^ 7 = 2
+    Some properties -
+        1) a ^ a = 0, Example, 5 ^ 5 = 0
+        2) a ^ a ^ b = b, Example, 5 ^ 5 ^ 7 = 7
+        3) a ^ 0 = a, Example, 5 ^ 0 = 5
